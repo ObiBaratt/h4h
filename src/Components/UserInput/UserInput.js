@@ -1,5 +1,6 @@
 import { useState } from "react"
 import generateUrl from "../../utils/generateUrl";
+import "./UserInput.css";
 
 const UserInput = () => {
     const [keyword, setKeyword] = useState("");
