@@ -1,8 +1,42 @@
-# Getting Started with Create React App
+# Retiree Restoration
+Due to COVID-19, the elderly have never been more isolated due to both loss in their network and social distancing to keep themselves safe. Social isolation often comes with many mental and physical health detriments, as people are not getting out to be active and enjoy company of others. We want to open up new avenues for socialization so that they can maintain or even expand their network as they age, sharing their wisdom instead of slowly losing people they can interact with. As a solution, we created one-stop web application providing a new avenue for the elderly to build a community and expand their social network as they age
 
+Functionalities:
+- Accessible event registration, tailored to interests of each individual
+- Community event planning
+- Volunteer opportunities to plan and host events
+- Guardian/Caretaker assignment based off needs and interests
+
+[Video Presentation](https://drive.google.com/file/d/1tJA1z4VxypM9Q2EaTTQ5qOGFvD3Liv1x/view?usp=sharing) \
+[Live Demo](https://team18isthebest.netlify.app/)
+
+## 2022 Hacks for Humanity
+Hacks for Humanity is an international in-person and virtual hackathon event. This 3-day hacking event was hosted by Project Humanities at Arizona State University. The event challenges participants to create and to innovate solutions for local and global issues. This year's participant team tracks were Aging and Wellbeing, Civic Engagement, and Environmental Justice. Project's must also embody at least 3 of these 7 Humanity 101 principles: kindness, compassion, integrity, respect, empathy, forgiveness, and self-reflection.
+
+## Contributors
+Carson Sidhu \
+Jessica Cassidy \
+Obi Baratt \
+Pranav Bande \
+Sienna Luong 
+
+## Build
+- React
+- Javascript
+- HTML/CSS
+- Netlify
+
+## Preview
+![](public/retireerestoration_demo1.png)
+![](public/retireerestoration_demo2.png)
+![](public/retireerestoration_demo3.png)
+![](public/retireerestoration_demo4.png)
+![](public/retireerestoration_demo5.png)
+
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
