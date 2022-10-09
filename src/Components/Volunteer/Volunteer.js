@@ -15,7 +15,7 @@ const Volunteer = () => {
                         <br></br>
                           <select name = "dropdown">
                           <option value = "Event1" selected> Parachuting through the Grand Canyon</option>
-                           <option value = "Event2">Cycling through Central Parkn</option>
+                           <option value = "Event2">Cycling through Central Park</option>
                            <option value = "Event1" >Wuthering Heights by Emily Bronte; Ch 17-34</option>
                            <option value = "Event2">Sampling of Wines From Around the World</option>
                            <option value = "Event2">Virtual Watch Party - House of the Dragon</option>
