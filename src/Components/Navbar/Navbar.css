@@ -9,6 +9,7 @@ a {
 nav {
     height: 56px;
     display: flex;
+    background-color: var(--tertiary);
 }
 
 .navbar {
@@ -55,7 +56,7 @@ nav a {
 
 /* Specific styles for active links */
 .link-active {
-    color: var(--quaternary);
+    color: var(-quaternary);
     font-weight: bold;
 }
 

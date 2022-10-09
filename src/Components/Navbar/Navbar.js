@@ -14,10 +14,10 @@ const Navbar = () => {
                 Home
             </NavLink>
             <NavLink
-                to="/input"
+                to="/events"
                 className={({ isActive }) => (isActive ? "link-active" : "link")}
                 >
-                UserInput
+                Find Events
             </NavLink>
             <NavLink
                 to="/register"
