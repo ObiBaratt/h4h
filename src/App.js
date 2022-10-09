@@ -1,11 +1,10 @@
 import './App.css';
-import UserInput from './Components/UserInput/UserInput';
+import About from './Components/About/about';
 
 function App() {
   return (
     <div className="App">
-      <h1>Team 18's site!!!</h1>
-      <UserInput />
+      
     </div>
   );
 }
