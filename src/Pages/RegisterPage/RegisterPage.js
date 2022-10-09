@@ -1,13 +1,13 @@
 import Navbar from "../../Components/Navbar/Navbar";
-import UserInput from "../../Components/Registration/Registration";
+import UserInput from "../../Components/Register/Register";
 
-const RegisterLoginPage = () => {
+const RegisterPage = () => {
     return (
-        <div className="RegistrationLoginPage">
+        <div className="RegisterPage">
             <Navbar />
             <UserInput />
         </div>
     );
 }
 
-export default RegisterLoginPage;
+export default RegisterPage;
