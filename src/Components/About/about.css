@@ -1,0 +1,53 @@
+
+
+.image {
+    background-color: #cccceb;
+    text-align: center;
+    margin: 0;
+}
+
+.story{
+    background-color: #280f91;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0;
+}
+.story h2{
+    color: white;
+    margin-top: 2%;
+}
+.para{
+    margin: 5% 10% 2%;
+    background-color: white;
+    display: inline-block;
+}
+.mission {
+    background-color: #b4d7ff;
+    text-align: center;
+    display: inline-block;
+}
+.mission h2{
+    margin-top: 2%;
+}
+.mission p {
+    margin: 2% 5% 5% 5%;
+}
+.split{
+    column-count: 2;
+    margin:  2% 5% 5% 5%;
+}
+
+.now {
+    margin-top: 0;
+    background-color: white;
+}
+
+.now h2{
+    text-align: center;
+    margin: 2% 5%;
+}
+
+.future{
+    background-color: #9dc860;
+    display: inline-block;
+}
