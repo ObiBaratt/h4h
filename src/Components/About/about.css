@@ -55,7 +55,8 @@
 
 
 .team {
-
+    background-color: var(--primary);
+    color: white;
     display: inline-block;
 }
 
