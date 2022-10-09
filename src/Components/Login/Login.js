@@ -1,9 +1,9 @@
-import "./RegistrationLogin.css";
+import "./Login.css";
 
 const RegistrationLogin = () => { 
     return (
         <div className="RegistrationLogin">
-            <h1>This is the registration and login page.</h1>
+            <h1>This is the login page.</h1>
         </div>
     );
 }
