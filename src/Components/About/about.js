@@ -32,11 +32,11 @@ class About extends React.Component {
                 <div className='mission'>
                     <h2>Our mission</h2>
                         <div className='split'>
-                            <p>Our team is committed to create a safe and welcome environment for the seniors to make new connection while engaging in meaningful events. We promise to uphold these three core values within any events we help them connect with:</p>
+                            <p>Our team is committed to create a welcome environment for the seniors to make new connection while engaging in meaningful events. We promise to uphold these three core values within any events we help them connect with:</p>
                             <li>
-                                <ul>Respect</ul>
-                                <ul>Empathy</ul>
-                                <ul>Compassion</ul>
+                                <ul>Respect: we understand our users have more life knowledge than most of us, therefore we value and respect their perspective</ul>
+                                <ul>Empathy: we empathize with their struggle and loneliness, therefore we hope to improve their life through many engaging activities</ul>
+                                <ul>Compassion: we are determined to bring a welcome energy to every events we help our users connect with through our event verification</ul>
                             </li>
                         </div>
                 </div>
@@ -67,7 +67,9 @@ class About extends React.Component {
                 </div>
                 <div className="team">
                 <h2>The team</h2>
-                    <p>Our team came together through Hacks for Humanities hackathon. We are made up of five members, with two are in Canada while the rest are in USA. We also come from different backgrounds, therefore we bring many skillsets to the table</p>
+                    <p>Our team came together through Hacks for Humanities hackathon. We are made up of five members, with two are in Canada while the rest are in USA. We also come from different backgrounds, therefore we bring many skillsets to the table.
+                        The website is our great pride and we hope it will inspire you in your daily life
+                    </p>
                 </div>
                     
                 
