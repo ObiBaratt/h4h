@@ -8,27 +8,27 @@ const Register = () => {
                 <div className="register-container-left row col-md mb-0 p-4">
                     <form>
                     <label>
-                        <p>First Name</p>
+                        <p class="fw-bold">First Name</p>
                         <input type="text" placeholder="John" />
                     </label>
                     <br></br><br></br>
                     <label>
-                        <p>Last Name</p>
+                        <p class="fw-bold">Last Name</p>
                         <input type="text" placeholder="Doe"/>
                     </label>
                     <br></br><br></br>
                     <label>
-                        <p>Location</p>
+                        <p class="fw-bold">Location</p>
                         <input type="text" placeholder="Oregon"/>
                     </label>
                     <br></br><br></br>
                     <label>
-                        <p>Email</p>
+                        <p class="fw-bold">Email</p>
                         <input type="text" placeholder="john.doe123@gmail.com"/>
                     </label>
                     <br></br><br></br>
                     <label>
-                        <p>Password</p>
+                        <p class="fw-bold">Password</p>
                         <input type="password" placeholder="" />
                     </label>
                     </form>
@@ -36,7 +36,7 @@ const Register = () => {
 
                 <div className="register-container-right row col-md mb-0 p-4">
                     <form>
-                    <p>Role</p>
+                    <p class="fw-bold">Role</p>
                     <input type="radio" value="Elder" name="elder"/> Elder
                     <br></br>
                     <input type="radio" value="Family/Guardian" name="family/guardian"/> Family/Guardian
@@ -48,7 +48,7 @@ const Register = () => {
                     <input type="radio" value="Host" name="host"/> Host
                     <br></br><br></br>
                     <label>
-                        <p>How did you hear about us?</p>
+                        <p class="fw-bold">How did you hear about us?</p>
                         <input type="text" placeholder="Advertisement"/>
                     </label>
                     <div>

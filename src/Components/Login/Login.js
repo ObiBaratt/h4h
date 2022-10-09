@@ -7,13 +7,13 @@ const Login = () => {
             <h1>Login</h1>
                 <form>
                 <label>
-                    <p>Email</p>
+                    <p class="fw-bold">Email</p>
                     <input type="text" placeholder="john.doe123@gmail.com"/>
                 </label>
                 <br></br>
                 <br></br>
                 <label>
-                    <p>Password</p>
+                    <p class="fw-bold">Password</p>
                     <input type="password" placeholder="Password"/>
                 </label>
                 <div>
