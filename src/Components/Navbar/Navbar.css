@@ -49,13 +49,13 @@ nav a {
 }
 
 /* Specific styles for non-active links */
-    .link {
+.link {
     color: black;
 }
 
 /* Specific styles for active links */
 .link-active {
-    color: red;
+    color: var(--quaternary);
     font-weight: bold;
 }
 
