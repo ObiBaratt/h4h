@@ -1,14 +1,17 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import UserInput from './Components/UserInput/UserInput';
-import RegistrationLogin from './Components/RegistrationLogin/RegistrationLogin';
+
+import Template from './Pages/PageTemplate/Template';
+import UserInputPage from './Pages/UserInputPage/UserInputPage';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Team 18's site!!!</h1>
-      <UserInput />
-      <RegistrationLogin />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Template />} />
+        <Route path="/input" element={<UserInputPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
