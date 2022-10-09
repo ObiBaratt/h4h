@@ -19,17 +19,18 @@ const Navbar = () => {
                 >
                 Login
             </NavLink>
-            <NavLink
-                to="/volunteer"
-                className={({ isActive }) => (isActive ? "link-active" : "link")}
-                >
-                Volunteer
-            </NavLink>
+
             <NavLink
                 to="/about"
                 className={({ isActive }) => (isActive ? "link-active" : "link")}
                 >
                 About
+            </NavLink>
+            <NavLink
+                to="/volunteer"
+                className={({ isActive }) => (isActive ? "link-active" : "link")}
+                >
+                Volunteer/Host
             </NavLink>
             </div>
       </nav>
