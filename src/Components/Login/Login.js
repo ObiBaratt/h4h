@@ -20,6 +20,10 @@ const Login = () => {
                     <br></br>
                     <button className="btn bg-quaternary tertiary" type="submit">Submit</button>
                 </div>
+                <div>
+                    <br></br>
+                    <a className="register-link quaternary" href="/register">Don't have a account? Register Here</a>
+                </div>
                 </form>
                 </div>
         </div>

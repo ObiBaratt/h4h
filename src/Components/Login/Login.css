@@ -21,3 +21,7 @@
 .login-container {
     border-radius: .25rem;
 }
+
+a:hover {
+    color: var(--primary);
+}

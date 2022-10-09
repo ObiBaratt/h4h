@@ -43,9 +43,7 @@ const Register = () => {
                     <br></br>
                     <input className="form-rounded bg-tertiary border-primaryy" type="radio" value="Caretaker" name="caretaker"/> Caretaker
                     <br></br>
-                    <input className="form-rounded bg-tertiary border-primaryy" type="radio" value="Volunteer" name="volunteer"/> Volunteer
-                    <br></br>
-                    <input className="form-rounded bg-tertiary border-primaryy" type="radio" value="Host" name="host"/> Host
+                    <input className="form-rounded bg-tertiary border-primaryy" type="radio" value="Volunteer" name="volunteer"/> Volunteer/Host
                     <br></br><br></br>
                     <label>
                         <p className="fw-bold">How did you hear about us?</p>
