@@ -1,0 +1,69 @@
+
+
+.image {
+    color: var(--quaternary);
+    text-align: center;
+    margin-top: 2%;
+}
+
+.story{
+    background-color: #280f91;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0;
+}
+.story h2{
+    color: white;
+    margin-top: 2%;
+}
+.para{
+    margin: 2% 10% 2%;
+    background-color: white;
+    display: inline-block;
+}
+.story span {
+    font-weight: bold;
+}
+.mission {
+    background-color: #b4d7ff;
+    text-align: center;
+    display: inline-block;
+}
+.mission h2{
+    margin-top: 2%;
+}
+.mission p {
+    margin: 2% 10% 10% 5%;
+}
+.split{
+    column-count: 2;
+    margin:  2% 5% 5% 5%;
+}
+
+.now {
+    margin: 5% 5%;
+    background-color: white;
+}
+
+.now h2{
+    text-align: center;
+    margin-top: 2%;
+}
+.now p{
+    margin: 2% 20%;
+}
+
+
+.team {
+    background-color: var(--primary);
+    color: white;
+    display: inline-block;
+}
+
+.team p{
+    margin: 2% 15%;
+}
+
+.team h2{
+    text-align: center;
+}
