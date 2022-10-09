@@ -48,6 +48,11 @@ div.inner-div {
   text-align: center;
 }
 
+.submit:hover {
+  background-color: var(--quaternary);
+  color: var(--primary);
+}
+
 .cardRow {
   display: flex;
   justify-content: space-between;

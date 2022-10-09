@@ -38,9 +38,10 @@ const UserInput = () => {
         return (
             <div className="main outer-div w-75">
                 <div className="inner-div">
-                    <h1 className="text">Card Title</h1>
-                    <p className="text">Card body text</p>
-                    <button className="submit" onClick={handleMeetup}>Meetup</button>
+                    <h1 className="text">Meetup.com</h1>
+                    <p className="text">Meetup is an online place where likeminded people can... <em>meetup!</em>
+                     There are local in-person as well as online events you can attend!</p>
+                    <button className="submit" onClick={handleMeetup}>Take me there</button>
                 </div>
             </div>
         )
