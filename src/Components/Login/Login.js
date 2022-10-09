@@ -3,8 +3,8 @@ import "./Login.css";
 const Login = () => { 
     return (
         <div className="Login">
+            <div className="login-container p-4 w-50 border">
             <h1>Login</h1>
-            <div className="login-wrapper">
                 <form>
                 <label>
                     <p>Email</p>
