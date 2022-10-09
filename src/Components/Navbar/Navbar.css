@@ -1,0 +1,65 @@
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    height: 56px;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.org {
+    font-size: 32px;
+    font-weight: bolder;
+    justify-content: flex-start;
+}
+
+.navItems {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/* Basic styles for nav links */
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+    text-decoration: none;
+}
+
+/* Specific styles for non-active links */
+    .link {
+    color: black;
+}
+
+/* Specific styles for active links */
+.link-active {
+    color: red;
+    font-weight: bold;
+}
+
+.content {
+    margin-top: 50px;
+    text-align: center;
+}

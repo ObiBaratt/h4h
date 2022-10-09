@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --primary: #231E23;
+  --secondary: #42bfbb;
+  --tertiary: #DEEEEA;
+  --quaternary: #d3368f;
+}
+
+.primary {
+  color: var(--primary);
+}
+
+.secondary {
+  color: var(--secondary);
+}
+
+.tertiary {
+  color: var(--tertiary);
+}
+
+.bg-tertiary {
+  background-color: var(--tertiary);
+}
+
+.quaternary {
+  color: var(--quaternary);
+}
+

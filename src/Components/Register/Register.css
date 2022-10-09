@@ -1,0 +1,23 @@
+.bg-tertiary {
+    background-color: var(--tertiary);
+}
+
+.bg-quaternary {
+    background-color: var(--quaternary);
+}
+
+.border-primaryy  {
+    border-color: var(--primary);
+}
+
+.bg-secondaryy {
+    background-color: var(--secondary);
+}
+
+.form-rounded {
+    border-radius: .25rem;
+}
+
+.register-container {
+    border-radius: .25rem;
+}
