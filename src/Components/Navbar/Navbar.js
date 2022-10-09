@@ -8,6 +8,11 @@ const Navbar = () => {
         <div className='org'><img src="door-open.svg" width={40} height={40} alt="Door opening logo"/></div>
         <div className='navItems'>
             <NavLink
+                to="/register"
+                className={({ isActive }) => (isActive ? "link-active" : "link")}
+                >
+            </NavLink>
+            <NavLink
                 to="/" end
                 className={({ isActive }) => (isActive ? "link-active" : "link")}
                 >
