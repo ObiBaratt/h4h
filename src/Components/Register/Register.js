@@ -2,7 +2,7 @@ import "./Register.css";
 
 const Register = () => { 
     return (
-        <div className="Register">
+        <div className="Register" class="p-4">
             <div class="row d-flex border">
             <h1>Register</h1>
                 <div className="register-container-left row col-md mb-0 p-4">

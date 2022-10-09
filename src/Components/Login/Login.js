@@ -2,7 +2,7 @@ import "./Login.css";
 
 const Login = () => { 
     return (
-        <div className="Login">
+        <div className="Login" class="p-4">
             <div className="login-container p-4 w-50 border">
             <h1>Login</h1>
                 <form>
