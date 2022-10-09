@@ -22,7 +22,7 @@ const Login = () => {
                 </div>
                 <div>
                     <br></br>
-                    <a className="register-link quaternary" href="https://team18isthebest.netlify.app/register">Don't have a account? Register Here</a>
+                    <a className="register-link quaternary" href="/register">Don't have a account? Register Here</a>
                 </div>
                 </form>
                 </div>
