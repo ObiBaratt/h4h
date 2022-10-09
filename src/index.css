@@ -15,9 +15,9 @@ code {
 
 :root {
   --primary: #231E23;
-  --secondary: #39A6A3;
+  --secondary: #42bfbb;
   --tertiary: #DEEEEA;
-  --quaternary: #BF1363;
+  --quaternary: #d3368f;
 }
 
 .primary {
@@ -32,6 +32,11 @@ code {
   color: var(--tertiary);
 }
 
+.bg-tertiary {
+  background-color: var(--tertiary);
+}
+
 .quaternary {
   color: var(--quaternary);
 }
+
