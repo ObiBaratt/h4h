@@ -2,7 +2,7 @@ import "./Register.css";
 
 const Register = () => { 
     return (
-        <div className="Register p-4">
+        <div className="Register p-5">
             <div className="register-container row d-flex bg-secondaryy">
             <h1 className="quaternary">Register</h1>
                 <div className="register-container-left row col-md mb-0 p-4">
