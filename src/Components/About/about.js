@@ -8,8 +8,8 @@ class About extends React.Component {
         return (
             <div className="about">
                  <div className='image'>
-                    <h1>...</h1>
-                    <p> Taglines </p>
+                    <h1>Retiree Restoration</h1>
+                    <p>Revitalize your connection</p>
                     <img src={header} alt="Happy elders"/>
                 </div>
 
@@ -21,10 +21,10 @@ class About extends React.Component {
                         away. The same goes with our parents, and our parents' siblings. We all think to ourself: "Dealing with the aging far from their loved ones, they must feel lonely sometimes". 
                         </p>
 
-                        <p>And indeed, a social isolation among seniors is an emerging issue in the post-COVID world. A report from the National Academies of Sciences, Engineering, and Medicine (NASEM) points out that more than one-third of adults aged 45 and older feel lonely, and nearly one-fourth of adults aged 65 and older are considered to be socially isolated.
+                        <p>And indeed, a social isolation among seniors is an emerging issue in the post-COVID world. A report from the National Academies of Sciences, Engineering, and Medicine (NASEM) points out that more than <span>one-third of adults aged 45 and older</span> feel lonely, and <span>nearly one-fourth of adults aged 65 and older</span> are considered to be socially isolated.
                         This phenomenon carries in itself many risk factors, such as higher rates of depression, anxiety, sucide, increased risk of death from heart attacks,...</p>
 
-                        <p>That's why we decided to create...</p>
+                        <p>That's why we decided to create Retiree Restoration</p>
                     </div>
                     
                 </div>
@@ -34,9 +34,9 @@ class About extends React.Component {
                         <div className='split'>
                             <p>Our team is committed to create a welcome environment for the seniors to make new connection while engaging in meaningful events. We promise to uphold these three core values within any events we help them connect with:</p>
                             <li>
-                                <ul>Respect: we understand our users have more life knowledge than most of us, therefore we value and respect their perspective</ul>
-                                <ul>Empathy: we empathize with their struggle and loneliness, therefore we hope to improve their life through many engaging activities</ul>
-                                <ul>Compassion: we are determined to bring a welcome energy to every events we help our users connect with through our event verification</ul>
+                                <ol>Respect: we understand our users have more life knowledge than most of us, therefore we value and respect their perspective</ol>
+                                <ol>Empathy: we empathize with their struggle and loneliness, therefore we hope to improve their life through many engaging activities</ol>
+                                <ol>Compassion: we are determined to bring a welcome energy to every events we help our users connect with through our event verification</ol>
                             </li>
                         </div>
                 </div>
@@ -49,15 +49,13 @@ class About extends React.Component {
                     <p>This website serves as our mockup and semi-functional product. 
                         We plan to have 3 main features: 
                         <li>
-                            <ul>a "hosting" feature where our users or any volunteers can make a post promoting an event they plan to hold</ul> 
-                            <ul>a chatbot that helps refine their search for the events that they might personally be interested in</ul>
-                            <ul>a support channel that helps our users with answer any question they have about the website.</ul>
+                            <ol>a "hosting" feature where our users or any volunteers can make a post promoting an event they plan to hold</ol> 
+                            <ol>a chatbot that helps refine their search for the events that they might personally be interested in</ol>
+                            <ol>a support channel that helps our users with answer any question they have about the website.</ol>
                         </li>
                     We approximate the website would take us an addition of 6 months to set up the infrastructure and complete the backend of our features
                     </p>
-                </div>
-
-                <div className='future'>
+                
                     <h2>What's from here?</h2>
                     <p>In the meantime, our business members will reach out to their local organizations for potential partnership, such as churches or clinics or students clubs. 
                     Moreover, we will recruit more volunteers to join our team to help with any necessary processes</p>

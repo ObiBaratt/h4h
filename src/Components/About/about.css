@@ -1,7 +1,7 @@
 
 
 .image {
-    background-color: #cccceb;
+    color: var(--quaternary);
     text-align: center;
     margin-top: 2%;
 }
@@ -20,6 +20,9 @@
     margin: 2% 10% 2%;
     background-color: white;
     display: inline-block;
+}
+.story span {
+    font-weight: bold;
 }
 .mission {
     background-color: #b4d7ff;
@@ -47,26 +50,12 @@
     margin-top: 2%;
 }
 .now p{
-    margin: 2% 22%;
+    margin: 2% 20%;
 }
 
-.future{
-    background-color: #9dc860;
-    display: inline-block;
-}
-
-.future p{
-    margin: 2% 15%;
-}
-
-.future h2{
-    text-align: center;
-    margin-top: 2%;
-}
 
 .team {
-    background-color: rgb(87, 29, 29);
-    color: rgb(246, 229, 200);
+
     display: inline-block;
 }
 
