@@ -56,7 +56,7 @@ nav a {
 
 /* Specific styles for active links */
 .link-active {
-    color: var(-quaternary);
+    color: var(--quaternary);
     font-weight: bold;
 }
 
