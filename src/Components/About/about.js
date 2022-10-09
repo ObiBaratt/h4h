@@ -64,10 +64,13 @@ class About extends React.Component {
 
 
                     <p>In the far future, after the launch of our website, we will gauge the interests of our users and implement more features along the way. Some of the features we are thinking of are chatroom and private messages, informal caregivers and guardians service,...</p>
-
-                    <h2>The team</h2>
-                    <p>Our team came together through Hacks for Humanities hackathon. We are made up of five members, with two are in Canada while the rest are in USA. We also come from different background, therefore we bring many skillsets to the table</p>
                 </div>
+                <div className="team">
+                <h2>The team</h2>
+                    <p>Our team came together through Hacks for Humanities hackathon. We are made up of five members, with two are in Canada while the rest are in USA. We also come from different backgrounds, therefore we bring many skillsets to the table</p>
+                </div>
+                    
+                
 
             </div>
            

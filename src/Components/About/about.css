@@ -3,7 +3,7 @@
 .image {
     background-color: #cccceb;
     text-align: center;
-    margin: 0;
+    margin-top: 2%;
 }
 
 .story{
@@ -17,7 +17,7 @@
     margin-top: 2%;
 }
 .para{
-    margin: 5% 10% 2%;
+    margin: 2% 10% 2%;
     background-color: white;
     display: inline-block;
 }
@@ -30,7 +30,7 @@
     margin-top: 2%;
 }
 .mission p {
-    margin: 2% 5% 5% 5%;
+    margin: 2% 10% 10% 5%;
 }
 .split{
     column-count: 2;
@@ -38,16 +38,42 @@
 }
 
 .now {
-    margin-top: 0;
+    margin: 2% 2%;
     background-color: white;
 }
 
 .now h2{
     text-align: center;
-    margin: 2% 5%;
+    margin-top: 2%;
+}
+.now p{
+    margin: 2% 22%;
 }
 
 .future{
     background-color: #9dc860;
     display: inline-block;
+}
+
+.future p{
+    margin: 2% 15%;
+}
+
+.future h2{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.team {
+    background-color: rgb(87, 29, 29);
+    color: rgb(246, 229, 200);
+    display: inline-block;
+}
+
+.team p{
+    margin: 2% 15%;
+}
+
+.team h2{
+    text-align: center;
 }
