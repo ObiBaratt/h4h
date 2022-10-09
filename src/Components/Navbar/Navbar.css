@@ -50,13 +50,17 @@ nav a {
 
 /* Specific styles for non-active links */
 .link {
-    color: black;
+    color: var(--primary);
 }
 
 /* Specific styles for active links */
 .link-active {
     color: var(--quaternary);
     font-weight: bold;
+}
+
+a:hover {
+    color: var(--secondary);
 }
 
 .content {
