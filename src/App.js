@@ -5,6 +5,7 @@ import Template from './Pages/PageTemplate/Template';
 import UserInputPage from './Pages/UserInputPage/UserInputPage';
 import RegisterPage from './Pages/RegisterPage/RegisterPage';
 import LoginPage from './Pages/LoginPage/LoginPage';
+import VolunteerPage from './Pages/VolunteerPage/VolunteerPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/input" element={<UserInputPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/volunteer" element={<VolunteerPage />} />
       </Routes>
     </BrowserRouter>
   );

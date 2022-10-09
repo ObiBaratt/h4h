@@ -20,16 +20,24 @@ const Navbar = () => {
                 UserInput
             </NavLink>
             <NavLink
+                to="/login"
+                className={({ isActive }) => (isActive ? "link-active" : "link")}
+                >
+                Login
+            </NavLink>
+            
+            <NavLink
                 to="/register"
                 className={({ isActive }) => (isActive ? "link-active" : "link")}
                 >
                 Register
             </NavLink>
+           
             <NavLink
-                to="/login"
+                to="/volunteer"
                 className={({ isActive }) => (isActive ? "link-active" : "link")}
                 >
-                Login
+                Volunteer/Host
             </NavLink>
             </div>
       </nav>
