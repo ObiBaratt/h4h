@@ -1,0 +1,9 @@
+.centered {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.bg {
+    background-color: var(--tertiary);
+}

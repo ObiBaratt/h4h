@@ -14,22 +14,22 @@ const Navbar = () => {
                 Home
             </NavLink>
             <NavLink
-                to="/input"
-                className={({ isActive }) => (isActive ? "link-active" : "link")}
-                >
-                UserInput
-            </NavLink>
-            <NavLink
-                to="/register"
-                className={({ isActive }) => (isActive ? "link-active" : "link")}
-                >
-                Register
-            </NavLink>
-            <NavLink
                 to="/login"
                 className={({ isActive }) => (isActive ? "link-active" : "link")}
                 >
                 Login
+            </NavLink>
+            <NavLink
+                to="/volunteer"
+                className={({ isActive }) => (isActive ? "link-active" : "link")}
+                >
+                Volunteer
+            </NavLink>
+            <NavLink
+                to="/about"
+                className={({ isActive }) => (isActive ? "link-active" : "link")}
+                >
+                About
             </NavLink>
             </div>
       </nav>

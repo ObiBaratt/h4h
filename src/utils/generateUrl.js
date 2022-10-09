@@ -2,7 +2,7 @@
 
 const generateUrl = (input) => {
     let url = `https://www.meetup.com/find/?suggested=true&source=EVENTS&keywords=` + input
-    console.log(`Do some stuff with ${url}`);
+    return url;
 }
 
 export default generateUrl;

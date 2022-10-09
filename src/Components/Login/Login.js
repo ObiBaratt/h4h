@@ -2,7 +2,7 @@ import "./Login.css";
 
 const Login = () => { 
     return (
-        <div className="Login p-4">
+        <div className="Login p-5">
             <div class="login-container p-4 w-50 bg-secondaryy">
             <h1 className="quaternary">Login</h1>
                 <form>
